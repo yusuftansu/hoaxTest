@@ -1,0 +1,54 @@
+package com.hoaxify.ws.user;
+
+public class User {
+
+	private String user;
+	
+	private String displayName;
+	
+	private String pas;
+	
+	private String in;
+
+	public String getUser() {
+		return user;
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
+
+	public String getDisplayName() {
+		return displayName;
+	}
+
+	public void setDisplayName(String displayName) {
+		this.displayName = displayName;
+	}
+
+	public String getPass() {
+		return pas;
+	}
+
+	public void setPass(String pass) {
+		this.pas = pass;
+	}
+
+	public String getInf() {
+		return in;
+	}
+
+	public void setInf(String i) {
+		this.in = i;
+	}
+
+	@Override
+	public String toString() {
+		return "User [user=" + user + ", displayName=" + displayName + ", pass=" + pas + ", in=" + in + "]";
+	}
+
+
+
+	
+	
+}

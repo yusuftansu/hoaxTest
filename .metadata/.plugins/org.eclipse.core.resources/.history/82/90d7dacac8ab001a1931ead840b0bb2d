@@ -1,0 +1,55 @@
+package com.hoaxify.ws.user;
+
+public class User {
+
+	private String username;
+	
+	private String displayName;
+	
+	private String pas;
+	
+	
+
+	public String getuser() {
+		return username;
+	}
+
+
+
+	public void setuser(String username) {
+		this.username = username;
+	}
+
+
+
+	public String getDisplayName() {
+		return displayName;
+	}
+
+
+
+	public void setDisplayName(String displayName) {
+		this.displayName = displayName;
+	}
+
+
+
+	public String getPassword() {
+		return pas;
+	}
+
+
+
+	public void setPassword(String pass) {
+		this.pas = pass;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", displayName=" + displayName + ", pass=" + pas + "]";
+	}
+	
+	
+}
